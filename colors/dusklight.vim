@@ -16,7 +16,7 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "Dusklight"
+let g:colors_name = "dusklight"
 
 hi  Boolean              guifg=#ff5252  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=203   ctermbg=NONE  cterm=NONE
 hi  Character            guifg=#00ffbb  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=49    ctermbg=NONE  cterm=NONE
@@ -75,6 +75,7 @@ hi  PMenuSel             guifg=#99ffff  guibg=#722a01  guisp=NONE     gui=bold  
 hi  PMenuThumb           guifg=NONE     guibg=#a4a6a8  guisp=NONE     gui=NONE       ctermfg=NONE  ctermbg=247   cterm=NONE
 hi  PreCondit            guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
 hi  PreProc              guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
+hi  Question             guifg=#00ffbb  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=49    ctermbg=NONE  cterm=NONE
 hi  Repeat               guifg=#fff86b  guibg=NONE     guisp=NONE     gui=bold       ctermfg=227   ctermbg=NONE  cterm=bold
 hi  Search               guifg=#04142e  guibg=#ff8000  guisp=NONE     gui=NONE       ctermfg=233   ctermbg=208   cterm=NONE
 hi  SignColumn           guifg=#99dfff  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=117   ctermbg=234   cterm=NONE
