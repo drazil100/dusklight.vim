@@ -4,7 +4,7 @@
 " background
 " Author: Austin Allman <drazil100@gmail.com>
 " Source: https://github.com/drazil100/dusklight.vim
-" Last Modified: 4 Apr 2023
+" Last Modified: 23 Apr 2023
 " -----------------------------------------------------------------------------
 
 " ----------------
