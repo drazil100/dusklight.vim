@@ -7,6 +7,27 @@
 " Last Modified: 4 Apr 2023
 " -----------------------------------------------------------------------------
 
+" ----------------
+"  Coor Pallete
+" Fore    Back
+" #99dfff #04142e
+" #00ffbb #033944
+" #fff86b #2B3838
+" #ff5252 #2B1E34
+" #99ffff #722a01
+" #3c96fc #052e51
+" #2ea1ff #04203E
+" #ff8000 #041B38
+" #b870ff #070921
+" #dd78ff #912C00
+" #9020d0 #848688
+" #527b93
+" #6A9CB7
+" #A1A6A8
+" #BD9800
+" #F9F9FF
+" #192224
+" ----------------
 set background=dark
 if version > 580
 	hi clear
@@ -61,7 +82,7 @@ hi  Keyword              guifg=#fff86b  guibg=NONE     guisp=NONE     gui=bold  
 hi  Label                guifg=#fff86b  guibg=NONE     guisp=NONE     gui=bold       ctermfg=227   ctermbg=NONE  cterm=bold
 hi  LineNr               guifg=#ff8000  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=208   ctermbg=234   cterm=NONE
 hi  Macro                guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
-hi  MatchParen           guifg=#BD9800  guibg=NONE     guisp=NONE     gui=bold       ctermfg=136   ctermbg=NONE  cterm=bold
+hi  MatchParen           guifg=#ff8000  guibg=NONE     guisp=NONE     gui=bold       ctermfg=136   ctermbg=NONE  cterm=bold
 hi  ModeMsg              guifg=#99dfff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=117   ctermbg=NONE  cterm=bold
 hi  MoreMsg              guifg=#ff8000  guibg=NONE     guisp=NONE     gui=bold       ctermfg=208   ctermbg=NONE  cterm=bold
 hi  NonText              guifg=#9020d0  guibg=NONE     guisp=NONE     gui=italic     ctermfg=92    ctermbg=NONE  cterm=italic
