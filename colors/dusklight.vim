@@ -70,7 +70,7 @@ hi  EndOfBuffer          guifg=#527b93  guibg=NONE     guisp=NONE     gui=NONE  
 hi  Error                guifg=#A1A6A8  guibg=#912C00  guisp=NONE     gui=NONE       ctermfg=148   ctermbg=88    cterm=NONE
 hi  ErrorMsg             guifg=#99ffff  guibg=#912C00  guisp=NONE     gui=NONE       ctermfg=123   ctermbg=88    cterm=NONE
 hi  Exception            guifg=#fff86b  guibg=NONE     guisp=NONE     gui=bold       ctermfg=227   ctermbg=NONE  cterm=bold
-hi  Float                guifg=#A1A6A8  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=145   ctermbg=NONE  cterm=NONE
+hi  Float                guifg=#ff5252  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=145   ctermbg=NONE  cterm=NONE
 hi  FloatBorder          guifg=#052e51  guibg=#052e51  guisp=NONE     gui=NONE       ctermfg=234   ctermbg=234   cterm=NONE
 hi  FoldColumn           guifg=#dd78ff  guibg=#04203E  guisp=NONE     gui=bold       ctermfg=177   ctermbg=234   cterm=bold
 hi  Folded               guifg=#dd78ff  guibg=#04203E  guisp=NONE     gui=bold       ctermfg=177   ctermbg=234   cterm=bold
