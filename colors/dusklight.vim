@@ -21,8 +21,8 @@
 " #b870ff #070921
 " #dd78ff #912C00
 " #9020d0 #C9C75E
-" #527b93 
-" #6A9CB7 
+" #527b93
+" #6A9CB7
 " ----------------
 set background=dark
 if version > 580
@@ -74,7 +74,7 @@ hi  Exception                 guifg=#fff86b  guibg=NONE     guisp=NONE     gui=b
 hi  Float                     guifg=#ff5252  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=145   ctermbg=NONE  cterm=NONE
 hi  FloatBorder               guifg=#052e51  guibg=#052e51  guisp=NONE     gui=NONE       ctermfg=234   ctermbg=234   cterm=NONE
 hi  FoldColumn                guifg=#dd78ff  guibg=#04203E  guisp=NONE     gui=bold       ctermfg=177   ctermbg=234   cterm=bold
-hi  Folded                    guifg=#dd78ff  guibg=#04203E  guisp=NONE     gui=bold       ctermfg=177   ctermbg=234   cterm=bold
+hi  Folded                    guifg=#dd78ff  guibg=#041B38  guisp=NONE     gui=bold       ctermfg=177   ctermbg=234   cterm=bold
 hi  Function                  guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
 hi  Identifier                guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
 hi  IncSearch                 guifg=#04142e  guibg=#ff8000  guisp=NONE     gui=NONE       ctermfg=233   ctermbg=208   cterm=NONE
