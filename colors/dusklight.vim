@@ -4,7 +4,7 @@
 " background
 " Author: Austin Allman <drazil100@gmail.com>
 " Source: https://github.com/drazil100/dusklight.vim
-" Last Modified: 23 Apr 2023
+" Last Modified: 25 Apr 2023
 " -----------------------------------------------------------------------------
 
 " ----------------
@@ -20,9 +20,9 @@
 " #ff8000 #041B38
 " #b870ff #070921
 " #dd78ff #912C00
-" #9020d0 #a4a6a8
-" #527b93 #848688
-" #6A9CB7 #C9C75E
+" #9020d0 #C9C75E
+" #527b93 
+" #6A9CB7 
 " ----------------
 set background=dark
 if version > 580
@@ -92,9 +92,9 @@ hi  NormalFloat               guifg=#99dfff  guibg=#052e51  guisp=NONE     gui=N
 hi  Number                    guifg=#ff5252  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=203   ctermbg=NONE  cterm=NONE
 hi  Operator                  guifg=#3c96fc  guibg=NONE     guisp=NONE     gui=bold       ctermfg=33    ctermbg=NONE  cterm=bold
 hi  PMenu                     guifg=#99dfff  guibg=#052e51  guisp=NONE     gui=NONE       ctermfg=117   ctermbg=234   cterm=NONE
-hi  PMenuSbar                 guifg=NONE     guibg=#848688  guisp=NONE     gui=NONE       ctermfg=NONE  ctermbg=102   cterm=NONE
+hi  PMenuSbar                 guifg=NONE     guibg=#070921  guisp=NONE     gui=NONE       ctermfg=NONE  ctermbg=232   cterm=NONE
 hi  PMenuSel                  guifg=#99ffff  guibg=#722a01  guisp=NONE     gui=bold       ctermfg=123   ctermbg=52    cterm=bold
-hi  PMenuThumb                guifg=NONE     guibg=#a4a6a8  guisp=NONE     gui=NONE       ctermfg=NONE  ctermbg=247   cterm=NONE
+hi  PMenuThumb                guifg=NONE     guibg=#912C00  guisp=NONE     gui=NONE       ctermfg=NONE  ctermbg=88    cterm=NONE
 hi  PreCondit                 guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
 hi  PreProc                   guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
 hi  Question                  guifg=#00ffbb  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=49    ctermbg=NONE  cterm=NONE
