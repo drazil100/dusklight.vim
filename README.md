@@ -14,4 +14,4 @@ I am not a master programmer with knowledge of how to program in 500 different l
 
 If you encounter any weird compatibility issues with any language or feature of Vim, Neovim, or any plugins let me know by leaving an issue on this repo and I will see what I can do to address it.
 
-![dusklight-pallete-2](https://user-images.githubusercontent.com/17794391/234173340-ae23abc7-aed8-4ae2-9c22-42407dbe7878.png)
+![dusklight-color-pallete](https://user-images.githubusercontent.com/17794391/234522416-d3b9a434-82e0-4f2e-9e23-35972a05881d.png)
