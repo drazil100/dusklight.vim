@@ -4,7 +4,7 @@
 " background
 " Author: Austin Allman <drazil100@gmail.com>
 " Source: https://github.com/drazil100/dusklight.vim
-" Last Modified: 25 Apr 2023
+" Last Modified: 26 Apr 2023
 " -----------------------------------------------------------------------------
 
 " ----------------
@@ -63,9 +63,9 @@ hi  DiagnosticUnderlineOk     guifg=NONE     guibg=NONE     guisp=#00ffbb  gui=u
 hi  DiagnosticUnderlineWarn   guifg=NONE     guibg=NONE     guisp=#fff86b  gui=underline  ctermfg=227   ctermbg=227   cterm=underline
 hi  DiagnosticWarn            guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
 hi  DiffAdd                   guifg=NONE     guibg=#033944  guisp=NONE     gui=NONE       ctermfg=49    ctermbg=234   cterm=NONE
-hi  DiffChange                guifg=NONE     guibg=#04142e  guisp=NONE     gui=NONE       ctermfg=NONE  ctermbg=233   cterm=NONE
+hi  DiffChange                guifg=NONE     guibg=#2B3838  guisp=NONE     gui=NONE       ctermfg=227   ctermbg=234   cterm=NONE
 hi  DiffDelete                guifg=#ff5252  guibg=#2B1E34  guisp=NONE     gui=bold       ctermfg=203   ctermbg=234   cterm=bold
-hi  DiffText                  guifg=NONE     guibg=#2B3838  guisp=NONE     gui=NONE       ctermfg=227   ctermbg=234   cterm=NONE
+hi  DiffText                  guifg=#2B3838  guibg=#C9C75E  guisp=NONE     gui=bold       ctermfg=234   ctermbg=185   cterm=bold
 hi  Directory                 guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
 hi  EndOfBuffer               guifg=#527b93  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 hi  Error                     guifg=#ff5252  guibg=#2B1E34  guisp=NONE     gui=bold       ctermfg=203   ctermbg=234   cterm=bold
