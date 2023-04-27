@@ -4,7 +4,7 @@
 " background
 " Author: Austin Allman <drazil100@gmail.com>
 " Source: https://github.com/drazil100/dusklight.vim
-" Last Modified: 26 Apr 2023
+" Last Modified: 27 Apr 2023
 " -----------------------------------------------------------------------------
 
 " ----------------
@@ -38,6 +38,7 @@ let g:colors_name = "dusklight"
 hi  Boolean                   guifg=#ff5252  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=203   ctermbg=NONE  cterm=NONE
 hi  Character                 guifg=#00ffbb  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=49    ctermbg=NONE  cterm=NONE
 hi  Comment                   guifg=#527b93  guibg=NONE     guisp=NONE     gui=italic     ctermfg=66    ctermbg=NONE  cterm=italic
+hi  Conceal                   guifg=#527b93  guibg=NONE     guisp=NONE     gui=italic     ctermfg=66    ctermbg=NONE  cterm=italic
 hi  Conditional               guifg=#fff86b  guibg=NONE     guisp=NONE     gui=bold       ctermfg=227   ctermbg=NONE  cterm=bold
 hi  Constant                  guifg=#99dfff  guibg=#04142e  guisp=NONE     gui=NONE       ctermfg=117   ctermbg=233   cterm=NONE
 hi  Cursor                    guifg=#04142e  guibg=#99dfff  guisp=NONE     gui=NONE       ctermfg=233   ctermbg=117   cterm=NONE
@@ -51,16 +52,16 @@ hi  DiagnosticError           guifg=#ff5252  guibg=NONE     guisp=NONE     gui=N
 hi  DiagnosticHint            guifg=#dd78ff  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=177   ctermbg=NONE  cterm=NONE
 hi  DiagnosticInfo            guifg=#99dfff  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=117   ctermbg=NONE  cterm=NONE
 hi  DiagnosticOk              guifg=#00ffbb  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=49    ctermbg=NONE  cterm=NONE
-hi  DiagnosticSignError       guifg=#ff5252  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=203   ctermbg=NONE  cterm=NONE
+hi  DiagnosticSignError       guifg=#ff5252  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=203   ctermbg=234   cterm=NONE
 hi  DiagnosticSignHint        guifg=#dd78ff  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=177   ctermbg=234   cterm=NONE
 hi  DiagnosticSignInfo        guifg=#99dfff  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=117   ctermbg=234   cterm=NONE
 hi  DiagnosticSignOk          guifg=#00ffbb  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=49    ctermbg=234   cterm=NONE
 hi  DiagnosticSignWarn        guifg=#fff86b  guibg=#041B38  guisp=NONE     gui=NONE       ctermfg=227   ctermbg=234   cterm=NONE
-hi  DiagnosticUnderlineError  guifg=NONE     guibg=NONE     guisp=#ff5252  gui=underline  ctermfg=203   ctermbg=203   cterm=underline
-hi  DiagnosticUnderlineHint   guifg=NONE     guibg=NONE     guisp=#dd78ff  gui=underline  ctermfg=177   ctermbg=177   cterm=underline
-hi  DiagnosticUnderlineInfo   guifg=NONE     guibg=NONE     guisp=#99dfff  gui=underline  ctermfg=117   ctermbg=117   cterm=underline
-hi  DiagnosticUnderlineOk     guifg=NONE     guibg=NONE     guisp=#00ffbb  gui=underline  ctermfg=49    ctermbg=49    cterm=underline
-hi  DiagnosticUnderlineWarn   guifg=NONE     guibg=NONE     guisp=#fff86b  gui=underline  ctermfg=227   ctermbg=227   cterm=underline
+hi  DiagnosticUnderlineError  guifg=NONE     guibg=NONE     guisp=#ff5252  gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
+hi  DiagnosticUnderlineHint   guifg=NONE     guibg=NONE     guisp=#dd78ff  gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
+hi  DiagnosticUnderlineInfo   guifg=NONE     guibg=NONE     guisp=#99dfff  gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
+hi  DiagnosticUnderlineOk     guifg=NONE     guibg=NONE     guisp=#00ffbb  gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
+hi  DiagnosticUnderlineWarn   guifg=NONE     guibg=NONE     guisp=#fff86b  gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
 hi  DiagnosticWarn            guifg=#fff86b  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=227   ctermbg=NONE  cterm=NONE
 hi  DiffAdd                   guifg=NONE     guibg=#033944  guisp=NONE     gui=NONE       ctermfg=49    ctermbg=234   cterm=NONE
 hi  DiffChange                guifg=NONE     guibg=#2B3838  guisp=NONE     gui=NONE       ctermfg=227   ctermbg=234   cterm=NONE
@@ -192,12 +193,6 @@ hi  jsonBraces         guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold    
 hi  phpParent          guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
 
 " Plugins
-hi  CocErrorHighlight  guifg=#99ffff  guibg=#AB070F  guisp=#722a01  gui=NONE       ctermfg=123   ctermbg=124   cterm=none
-hi  CocErrorSign       guifg=#ff0000  guibg=#041B38  guisp=NONE     gui=bold       ctermfg=196   ctermbg=233   cterm=bold
-hi  CocFadeOut         guifg=#99ffff  guibg=#0D5F77  guisp=#722a01  gui=NONE       ctermfg=123   ctermbg=24    cterm=none
-hi  CocHintSign        guifg=#15aabf  guibg=#041B38  guisp=NONE     gui=bold       ctermfg=37    ctermbg=233   cterm=bold
-hi  CocInfoHighlight   guifg=#99ffff  guibg=#7F621A  guisp=#722a01  gui=NONE       ctermfg=123   ctermbg=94    cterm=none
-hi  CocInfoSign        guifg=#fab005  guibg=#041B38  guisp=NONE     gui=bold       ctermfg=214   ctermbg=233   cterm=bold
 hi  GitGutterAdd       guifg=#00ffbb  guibg=#033944  guisp=NONE     gui=bold       ctermfg=49    ctermbg=234   cterm=bold
 hi  GitGutterChange    guifg=#fff86b  guibg=#2B3838  guisp=NONE     gui=NONE       ctermfg=227   ctermbg=234   cterm=NONE
 hi  GitGutterDelete    guifg=#ff5252  guibg=#2B1E34  guisp=NONE     gui=bold       ctermfg=203   ctermbg=234   cterm=bold
