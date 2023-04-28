@@ -202,27 +202,17 @@ endif
 " Plugin Highlights {{{
 
 	" Diffview {{{
-	hi  DiffviewFilePanelCounter   guifg=#2ea1ff          guibg=NONE     guisp=NONE  gui=bold    ctermfg=39   ctermbg=NONE  cterm=bold
-	hi  DiffviewFilePanelFileName  guifg=#99dfff          guibg=NONE     guisp=NONE  gui=NONE    ctermfg=117  ctermbg=NONE  cterm=NONE
-	hi  DiffviewFilePanelSelected  guifg=#dd78ff          guibg=NONE     guisp=NONE  gui=bold    ctermfg=177  ctermbg=NONE  cterm=bold
-	hi  DiffviewSecondary          guifg=#ff8000          guibg=NONE     guisp=NONE  gui=bold    ctermfg=208  ctermbg=NONE  cterm=bold
-	hi  DiffviewStatusModified     guifg=#fff86b          guibg=NONE     guisp=NONE  gui=bold    ctermfg=227  ctermbg=NONE  cterm=bold
-	hi  DiffviewStatusRenamed      guifg=#ff8000          guibg=NONE     guisp=NONE  gui=bold    ctermfg=208  ctermbg=NONE  cterm=bold
-	hi  DiffviewStatusUntracked    guifg=#527b93          guibg=NONE     guisp=NONE  gui=bold    ctermfg=66   ctermbg=NONE  cterm=bold
-	hi  diffAdded                  guifg=#00ffbb          guibg=NONE     guisp=NONE  gui=bold    ctermfg=49   ctermbg=NONE  cterm=bold
-	hi  diffChanged                guifg=#fff86b          guibg=NONE     guisp=NONE  gui=NONE    ctermfg=227  ctermbg=NONE  cterm=NONE
-	hi  diffRemoved                guifg=#ff5252          guibg=NONE     guisp=NONE  gui=bold    ctermfg=203  ctermbg=NONE  cterm=bold
-	" }}}
-
-	" Gitgutter {{{
-	hi  GitGutterAdd               guifg=#00ffbb          guibg=#033944  guisp=NONE  gui=bold    ctermfg=49   ctermbg=234   cterm=bold
-	hi  GitGutterChange            guifg=#fff86b          guibg=#2B3838  guisp=NONE  gui=NONE    ctermfg=227  ctermbg=234   cterm=NONE
-	hi  GitGutterDelete            guifg=#ff5252          guibg=#2B1E34  guisp=NONE  gui=bold    ctermfg=203  ctermbg=234   cterm=bold
-	" }}}
-
-	" Traces {{{
-	hi  TracesReplace              guifg=#04142e          guibg=#2ea1ff  guisp=NONE  gui=NONE    ctermfg=233  ctermbg=39    cterm=NONE
-	hi  TracesSearch               guifg=#04142e          guibg=#ff8000  guisp=NONE  gui=NONE    ctermfg=233  ctermbg=208   cterm=NONE
+	hi  DiffviewCursorLine         guifg=NONE     guibg=#04203E  guisp=NONE  gui=bold  ctermfg=NONE ctermbg=234   cterm=bold
+	hi  DiffviewFilePanelCounter   guifg=#2ea1ff  guibg=NONE     guisp=NONE  gui=NONE  ctermfg=39   ctermbg=NONE  cterm=NONE
+	hi  DiffviewFilePanelFileName  guifg=#99dfff  guibg=NONE     guisp=NONE  gui=NONE  ctermfg=117  ctermbg=NONE  cterm=NONE
+	hi  DiffviewFilePanelSelected  guifg=#dd78ff  guibg=NONE     guisp=NONE  gui=NONE  ctermfg=177  ctermbg=NONE  cterm=NONE
+	hi  DiffviewSecondary          guifg=#ff8000  guibg=NONE     guisp=NONE  gui=NONE  ctermfg=208  ctermbg=NONE  cterm=NONE
+	hi  DiffviewStatusModified     guifg=#fff86b  guibg=NONE     guisp=NONE  gui=bold  ctermfg=227  ctermbg=NONE  cterm=bold
+	hi  DiffviewStatusRenamed      guifg=#ff8000  guibg=NONE     guisp=NONE  gui=bold  ctermfg=208  ctermbg=NONE  cterm=bold
+	hi  DiffviewStatusUntracked    guifg=#527b93  guibg=NONE     guisp=NONE  gui=bold  ctermfg=66   ctermbg=NONE  cterm=bold
+	hi  diffAdded                  guifg=#00ffbb  guibg=NONE     guisp=NONE  gui=bold  ctermfg=49   ctermbg=NONE  cterm=bold
+	hi  diffChanged                guifg=#fff86b  guibg=NONE     guisp=NONE  gui=NONE  ctermfg=227  ctermbg=NONE  cterm=NONE
+	hi  diffRemoved                guifg=#ff5252  guibg=NONE     guisp=NONE  gui=bold  ctermfg=203  ctermbg=NONE  cterm=bold
 	" }}}
 
 	" Fzf {{{
@@ -241,6 +231,18 @@ endif
 				\ 'spinner': ['fg', 'Label'],
 				\ 'header':  ['fg', 'Comment'] }
 	" }}}
+
+	" Gitgutter {{{
+	hi  GitGutterAdd     guifg=#00ffbb  guibg=#033944  guisp=NONE  gui=bold  ctermfg=49   ctermbg=234  cterm=bold
+	hi  GitGutterChange  guifg=#fff86b  guibg=#2B3838  guisp=NONE  gui=NONE  ctermfg=227  ctermbg=234  cterm=NONE
+	hi  GitGutterDelete  guifg=#ff5252  guibg=#2B1E34  guisp=NONE  gui=bold  ctermfg=203  ctermbg=234  cterm=bold
+	" }}}
+
+	" Traces {{{
+	hi  TracesReplace  guifg=#04142e  guibg=#2ea1ff  guisp=NONE  gui=NONE  ctermfg=233  ctermbg=39   cterm=NONE
+	hi  TracesSearch   guifg=#04142e  guibg=#ff8000  guisp=NONE  gui=NONE  ctermfg=233  ctermbg=208  cterm=NONE
+	" }}}
+
 
 " }}}
 
