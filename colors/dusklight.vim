@@ -139,16 +139,19 @@ hi  helpHeader                guifg=#3c96fc  guibg=NONE     guisp=NONE     gui=b
 hi  helpSectionDelim          guifg=#ff8000  guibg=NONE     guisp=NONE     gui=bold       ctermfg=208   ctermbg=NONE  cterm=bold
 
 " Language
-hi  csBraces           guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  csParens           guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  htmlEndTag         guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  javaParen          guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  javaParen1         guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  javaParen2         guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  javaScriptNumber   guifg=#ff5252  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=203   ctermbg=NONE  cterm=NONE
-hi  javaScriptParens   guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  jsonBraces         guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
-hi  phpParent          guifg=#2ea1ff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=39    ctermbg=NONE  cterm=bold
+hi  csBraces          guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  csParens          guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  diffAdded         guifg=#00ffbb  guibg=NONE  guisp=NONE  gui=bold  ctermfg=49   ctermbg=NONE  cterm=bold
+hi  diffChanged       guifg=#fff86b  guibg=NONE  guisp=NONE  gui=NONE  ctermfg=227  ctermbg=NONE  cterm=NONE
+hi  diffRemoved       guifg=#ff5252  guibg=NONE  guisp=NONE  gui=bold  ctermfg=203  ctermbg=NONE  cterm=bold
+hi  htmlEndTag        guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  javaParen         guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  javaParen1        guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  javaParen2        guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  javaScriptNumber  guifg=#ff5252  guibg=NONE  guisp=NONE  gui=NONE  ctermfg=203  ctermbg=NONE  cterm=NONE
+hi  javaScriptParens  guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  jsonBraces        guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
+hi  phpParent         guifg=#2ea1ff  guibg=NONE  guisp=NONE  gui=bold  ctermfg=39   ctermbg=NONE  cterm=bold
 " }}}
 
 " Neovim Highlights {{{
@@ -210,9 +213,6 @@ endif
 	hi  DiffviewStatusModified     guifg=#fff86b  guibg=NONE     guisp=NONE  gui=bold  ctermfg=227  ctermbg=NONE  cterm=bold
 	hi  DiffviewStatusRenamed      guifg=#ff8000  guibg=NONE     guisp=NONE  gui=bold  ctermfg=208  ctermbg=NONE  cterm=bold
 	hi  DiffviewStatusUntracked    guifg=#527b93  guibg=NONE     guisp=NONE  gui=bold  ctermfg=66   ctermbg=NONE  cterm=bold
-	hi  diffAdded                  guifg=#00ffbb  guibg=NONE     guisp=NONE  gui=bold  ctermfg=49   ctermbg=NONE  cterm=bold
-	hi  diffChanged                guifg=#fff86b  guibg=NONE     guisp=NONE  gui=NONE  ctermfg=227  ctermbg=NONE  cterm=NONE
-	hi  diffRemoved                guifg=#ff5252  guibg=NONE     guisp=NONE  gui=bold  ctermfg=203  ctermbg=NONE  cterm=bold
 	" }}}
 
 	" Fzf {{{
