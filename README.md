@@ -1,10 +1,16 @@
 # dusklight.vim
 
-This truecolor Vim colorscheme combines a beautiful Midnight Blue background with viberant florescent text colors. This was designed from the ground up with readability in mind. The colors were painstakingly balanced by hand so that all colors are visually distinct from one another and so that no color grabs your attention more than any other color.
+## Getting Started
 
-This colorscheme is designed to be used with `set termguicolors` enabled however it does support 256color as well for those who don't use a truecolor terminal. You will lose the blue background using the cterm colors but I couldn't find a blue dark enough to have the same level of readability.
+To use this you need to have "set termguicolors" in your config. The theme will not look the same without this.
 
-For Neovim users this colorscheme is configured to work with both Neovim's built in LSP, and Treesitter highlighting.
+## About
+
+This truecolor Vim colorscheme combines a beautiful Midnight Blue background with vibrant fluorescent text colors. This was designed from the ground up with readability in mind. The colors were painstakingly balanced by hand so that all colors are visually distinct from one another and so that no color grabs your attention more than any other color.
+
+This colorscheme is designed to be used with `set termguicolors` enabled, however it does support 256color as well for those who don't use a truecolor terminal. You will lose the blue background using the cterm colors, but I couldn't find a blue dark enough to have the same level of readability.
+
+For Neovim users, this colorscheme is configured to work with both Neovim's built in LSP and Treesitter highlighting.
 
 ![Screenshot from 2023-04-23 15-23-59](https://user-images.githubusercontent.com/17794391/233864239-3add6f06-3b95-413d-83d3-1f5f8b6143c1.png)
 
