@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-To use this you need to have "set termguicolors" in your config. The theme will not look the same without this.
+To use this you need to have `set termguicolors` in your config. The theme will not look the same without this.
 
 ## About
 
@@ -20,4 +20,5 @@ I am not a master programmer with knowledge of how to program in 500 different l
 
 If you encounter any weird compatibility issues with any language or feature of Vim, Neovim, or any plugins let me know by leaving an issue on this repo and I will see what I can do to address it.
 
-![dusklight-color-pallete](https://user-images.githubusercontent.com/17794391/234522416-d3b9a434-82e0-4f2e-9e23-35972a05881d.png)
+
+![dusklight-color-palette](https://github.com/drazil100/dusklight.vim/assets/17794391/038dad57-35da-420d-98c8-93841a4b4b52)
