@@ -6,6 +6,20 @@
 " Source: https://github.com/drazil100/dusklight.vim
 " Last Modified: 27 Apr 2023
 " -----------------------------------------------------------------------------
+" Please try to follow the following rules
+"
+" - Use explicitely defined highlights only (no linking):
+"   This is to make it easier to see what colors are being used by which
+"   highlights through plugins like nvim-colorizer on neovim, or clrzr on vim.
+"
+" - Keep sections & highlights alphabetized:
+"   If you are adding highlights for a specific plugin, put the plugin in the
+"   Plugin Highlights fold in alphabetical order. For sorting the highlights
+"   themselves you can visual select the lines and run :sort on the selection.
+"
+" - Keep columns evenly padded:
+"   This just makes it less messy to read. On linux this can be done by
+"   visually selecting the lines you wish to adjust and running :!column -t
 
 "  Color Palette {{{
 " Fore       Back
