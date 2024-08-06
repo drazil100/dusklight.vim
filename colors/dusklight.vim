@@ -218,6 +218,14 @@ endif
 
 " Plugin Highlights {{{
 
+	" ALE {{{
+hi  ALEError         guifg=#ff5252  guibg=NONE  guisp=NONE  gui=NONE  ctermfg=203  ctermbg=NONE  cterm=NONE
+hi  ALEInfo          guifg=#99dfff  guibg=NONE  guisp=NONE  gui=NONE  ctermfg=117  ctermbg=NONE  cterm=NONE
+hi  ALEStyleError    guifg=#ff5252  guibg=NONE  guisp=NONE  gui=NONE  ctermfg=203  ctermbg=NONE  cterm=NONE
+hi  ALEStyleWarning  guifg=#fff86b  guibg=NONE  guisp=NONE  gui=NONE  ctermfg=227  ctermbg=NONE  cterm=NONE
+hi  ALEWarning       guifg=#fff86b  guibg=NONE  guisp=NONE  gui=NONE  ctermfg=227  ctermbg=NONE  cterm=NONE
+	" }}}
+
 	" Diffview {{{
 	hi  DiffviewCursorLine         guifg=NONE     guibg=#04203E  guisp=NONE  gui=bold  ctermfg=NONE ctermbg=234   cterm=bold
 	hi  DiffviewFilePanelCounter   guifg=#2ea1ff  guibg=NONE     guisp=NONE  gui=NONE  ctermfg=39   ctermbg=NONE  cterm=NONE
