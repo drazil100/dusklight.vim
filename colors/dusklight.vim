@@ -102,7 +102,7 @@ hi  Macro                     guifg=#fff86b  guibg=NONE     guisp=NONE     gui=N
 hi  MatchParen                guifg=#ff8000  guibg=NONE     guisp=NONE     gui=bold       ctermfg=136   ctermbg=NONE  cterm=bold
 hi  ModeMsg                   guifg=#99dfff  guibg=NONE     guisp=NONE     gui=bold       ctermfg=117   ctermbg=NONE  cterm=bold
 hi  MoreMsg                   guifg=#ff8000  guibg=NONE     guisp=NONE     gui=bold       ctermfg=208   ctermbg=NONE  cterm=bold
-hi  NonText                   guifg=#9020d0  guibg=NONE     guisp=NONE     gui=italic     ctermfg=92    ctermbg=NONE  cterm=italic
+hi  NonText                   guifg=#9020d0  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=92    ctermbg=NONE  cterm=NONE
 hi  Normal                    guifg=#99dfff  guibg=#04142e  guisp=NONE     gui=NONE       ctermfg=117   ctermbg=233   cterm=NONE
 hi  NormalFloat               guifg=#99dfff  guibg=#052e51  guisp=NONE     gui=NONE       ctermfg=117   ctermbg=234   cterm=NONE
 hi  Number                    guifg=#ff5252  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=203   ctermbg=NONE  cterm=NONE
@@ -120,7 +120,7 @@ hi  SignColumn                guifg=#99dfff  guibg=#041B38  guisp=NONE     gui=N
 hi  Special                   guifg=#b870ff  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=135   ctermbg=NONE  cterm=NONE
 hi  SpecialChar               guifg=#b870ff  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=135   ctermbg=NONE  cterm=NONE
 hi  SpecialComment            guifg=#b870ff  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=135   ctermbg=NONE  cterm=NONE
-hi  SpecialKey                guifg=#9020d0  guibg=NONE     guisp=NONE     gui=italic     ctermfg=92    ctermbg=NONE  cterm=italic
+hi  SpecialKey                guifg=#9020d0  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=92    ctermbg=NONE  cterm=NONE
 hi  SpellBad                  guifg=#ff8000  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=208   ctermbg=NONE  cterm=NONE
 hi  SpellCap                  guifg=#ff8000  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=208   ctermbg=NONE  cterm=NONE
 hi  SpellLocal                guifg=#ff8000  guibg=NONE     guisp=NONE     gui=NONE       ctermfg=208   ctermbg=NONE  cterm=NONE
